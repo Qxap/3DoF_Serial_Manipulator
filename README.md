@@ -11,3 +11,5 @@ Remember not to use the relative paths.
 
 execute `ros2 launch ms2r1p robot_launch_ms2r.launch.py`; the stationary robot should be displayed in RViz.
 Then run the planner trajectory node using `ros2 run ms2r1p trajectory_planner_node`, the robot must start moving following the trajectory that follows the edge of the .stl figure.
+
+this folder is meant to be placed inside your `src` folder.
